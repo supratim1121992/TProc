@@ -1,0 +1,12 @@
+Package: TProc
+Type: Package
+Title: Preprocessing and visualisations for text mining and NLP
+Version: 0.1.0
+Depends: data.table, stringr, text2vec, stopwords, wordcloud, textstem
+Author: Supratim Chaudhuri
+Maintainer: Supratim Chaudhuri <supratim1121992@gmail.com>
+Description: The package offers functions for preprocessing textual data by removing punctuation marks, additional whitespaces, special characters, digits and stop words.    Users can also create wordclouds and Document Term Matrices which can be saved locally.
+License: None
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
